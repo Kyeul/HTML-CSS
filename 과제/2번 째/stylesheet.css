@@ -1,0 +1,29 @@
+body{
+	background-color: #ffffcc;
+}
+h1{
+	color: #009900;
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 60px;
+}
+
+header div figure{
+	display: inline;
+}
+.title{
+		display: inline;
+	}
+
+#contents_title{
+	color: #330099;
+	font-style: italic;
+}
+
+.footer_content{
+	font-size: 20px;
+}
+
+.footer_content img{
+	position: relative;
+	top:8px
+}
