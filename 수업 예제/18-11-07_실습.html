@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var a = 0;
+		var sum = 0;
+
+		for(i = 0; i< 200; i++){
+		a++;
+		sum +=a;
+		}
+		document.write(sum+"<br>"+"<hr>");
+
+		// do while
+
+		var b = 0;
+		var sum_1 = 0;
+		var i = 0;
+		do{
+			b++;
+			sum_1 += b;
+			i++;
+		}while( i<200)
+
+		document.write(sum_1+"<br/>"+"<hr/>");
+
+		// function show_alert(){
+		// 	alert("1 seconds passed...");
+		// }
+		// function show_message(){
+		// 	document.write("2 seconds passed...");
+		// }
+
+		// setTimeout(show_alert,1000);
+		// setTimeout(show_message, 2000);
+		function _print(a, b){
+			document.write("a" + "b");
+		}
+
+		function add(a, b){
+			return(a+b);
+		}
+		function substract(a, b){
+			return(a-b);
+		}
+
+		document.write(add(5, 3) + "<br/>");
+		document.write(substract(5, 3)+ "<br/>");
+		document.write(add(5, "3"));
+
+	</script>
+</body>
+</html>
