@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+		for (var i = 1; i <= 2; ++i){
+			SetTimeout(i);
+		}
+
+		function doScaledTimeout(i) {
+		  setTimeout(function() {
+		    document.write(i);
+		  }, i * 1000);
+		}
+	</script>
+</body>
+</html>
